@@ -1,0 +1,77 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(70, 165, 118);
+    background: linear-gradient(162deg, rgb(15, 163, 151) 0%, rgba(244,141,60,1) 100%);
+    padding: 0 24px;
+    height: 100vh;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 50px;
+    color: rgb(8, 7, 7);
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 4px;
+}
+
+.menu ul li {
+    margin: 10px;
+}
+
+.menu ul li a {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+
+
+.main {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kiri {
+    width: 50%;
+    text-align: center;
+}
+
+.kiri img {
+    width: 100%;
+    max-width: 800px;
+}
+
+.kanan {
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+
+
+
